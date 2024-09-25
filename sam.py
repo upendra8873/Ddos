@@ -232,7 +232,7 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(response)
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("🔑This is soul bot.\nCommands:\n/redeem <key>\n/stop\n/start\n/genkey <hours/days> \nOWNER- @Official_ShouT")
+    await update.message.reply_text("🔑This is finisher bot.\nCommands:\n/redeem <key>\n/stop\n/start\n/genkey <hours/days> \nOWNER- @Official_ShouT")
 
 if __name__ == '__main__':
     load_data()
